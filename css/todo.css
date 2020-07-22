@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    
+    width: 100%;
+}
+
+.pink {
+    background: pink;
+}
+
+.container {
+    max-width: 400px;
+    margin: 5rem auto;
+    border: 2px solid black;
+}
+
+.todo-input p {
+    display: inline;
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: bisque;
+}
