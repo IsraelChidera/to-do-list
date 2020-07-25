@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/todo.css">
 </head>
-<body>
+<body onload="updateTime(), change()" id="bg">
     
     <div class="container">
         <div class="container-content">
             <div class="content-heading">
                 <h1>TODO LIST</h1>
                 <p>Your everyday friend</p>
+                <div id="clock"></div>
             </div>
             <div class="content-input">
                 <input type="text" placeholder="Add New Todo">
